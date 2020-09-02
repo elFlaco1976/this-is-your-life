@@ -1,23 +1,39 @@
-.offset-top-text {
-  height: 40vh;
+.offset-text {
+  height: 45vh;
   width: 100%;
+}
+
+.normal-text,
+.big-text {
+  z-index: 2;
+  text-align: center;
 }
 
 .normal-text {
   font-size: 2rem;
-  color: #ffff3f;
-  z-index: 2;
+  /* color: #ffff3f; */
+  color: white;
+  font-family: 'Raleway';
+}
+
+@media (max-width: 576px) {
+  .normal-text {
+    font-size: 1.4rem;
+  }
 }
 
 .big-text {
   font-size: 3rem;
   color: white;
-  z-index: 2;
   text-transform: uppercase;
-  /* font-family: 'Merriweather'; */
   font-family: 'Londrina Solid';
-  /*   font-family: 'Londrina Shadow'; */
   font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  .big-text {
+    font-size: 2.1rem;
+  }
 }
 
 p {
