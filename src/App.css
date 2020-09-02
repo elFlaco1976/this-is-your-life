@@ -1,4 +1,32 @@
-.App {
+.container {
+  background-image: url('./portugal-2400x1500.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  scroll-padding-top: 100px;
+}
+
+body,
+html {
+  margin: 0%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +64,4 @@
     transform: rotate(360deg);
   }
 }
+ */

@@ -1,0 +1,29 @@
+.offset-top-text {
+  height: 40vh;
+  width: 100%;
+}
+
+.normal-text {
+  font-size: 2rem;
+  color: #ffff3f;
+  z-index: 2;
+}
+
+.big-text {
+  font-size: 3rem;
+  color: white;
+  z-index: 2;
+  text-transform: uppercase;
+  /* font-family: 'Merriweather'; */
+  font-family: 'Londrina Solid';
+  /*   font-family: 'Londrina Shadow'; */
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+}
+
+.new-paragraph {
+  margin-top: 1rem;
+}
